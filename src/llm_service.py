@@ -28,7 +28,7 @@ class LLMService:
                 "instituicao": inst["nome"],
                 "endereco": inst["endereco"],
                 "motivo_compatibilidade": f"Compatível com a categoria '{m['categoria']}' (Similaridade semântica: {m['score_similaridade']*100:.1f}%).",
-                "mensagem_pronta": f"Olá, equipe do {inst['nome']}! Vi o pedido #{m['id_pedido']} na plataforma SOLIA e gostaria de agendar uma doação. Como podemos combinar a entrega?"
+                "mensagem_pronta": f"Olá, equipe do {inst['nome']}! Vi o pedido #{m['id_pedido']} na plataforma colabia e gostaria de agendar uma doação. Como podemos combinar a entrega?"
             })
 
         return {
@@ -50,7 +50,7 @@ class LLMService:
         contexto_rag = json.dumps(matches_rag, ensure_ascii=False, indent=2)
 
         prompt = f"""
-Você é o Assistente Inteligente da plataforma CitizenTech 'SOLIA', que conecta doadores a instituições e pedidos de ajuda verificados.
+Você é o Assistente Inteligente da plataforma CitizenTech 'colabia', que conecta doadores a instituições e pedidos de ajuda verificados.
 
 ENTRADA DO DOADOR:
 "{consulta_doador}"
