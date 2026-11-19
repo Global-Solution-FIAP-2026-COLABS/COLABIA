@@ -8,7 +8,7 @@ from src.rag_engine import RAGEngine
 from src.llm_service import LLMService
 
 def executar_avaliacao():
-    print("=== INICIANDO BATERIA DE TESTES E AVALIAÇÃO — SOLIA IA ===\n")
+    print("=== INICIANDO BATERIA DE TESTES E AVALIAÇÃO — COLABIA ===\n")
     rag = RAGEngine(data_path="data/base_doacoes.json")
     llm = LLMService()
 
