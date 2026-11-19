@@ -1,4 +1,4 @@
-# SOLIA — Assistente Inteligente de Triagem e Match de Doações
+# COLABIA — Assistente Inteligente de Triagem e Match de Doações
 
 > **Global Solution 2026/2 · FIAP — Disruptive Architectures: IoT, IoB & Generative IA**  
 > **Tema:** CitizenTech
@@ -16,7 +16,7 @@
 ## 1. Problema e Aplicação CitizenTech
 Muitos cidadãos desejam doar alimentos, roupas, móveis e itens de higiene, mas não sabem quais instituições próximas realmente precisam daqueles itens no momento, gerando desperdício logístico e doações incompatíveis.
 
-O **SOLIA** resolve essa barreira atuando como um **Assistente Inteligente de Triagem e Match de Doações** integrado à modelagem da plataforma CitizenTech (`Instituição`, `Pedido de Ajuda`, `ItemPedido`, `Categoria` e `Avaliação`). O cidadão descreve em linguagem natural o que deseja doar, e o sistema encontra os pedidos de ajuda ativos mais compatíveis, valida regras de segurança/triagem e redige uma mensagem pronta para agendamento.
+O **COLABIA** resolve essa barreira atuando como um **Assistente Inteligente de Triagem e Match de Doações** integrado à modelagem da plataforma CitizenTech (`Instituição`, `Pedido de Ajuda`, `ItemPedido`, `Categoria` e `Avaliação`). O cidadão descreve em linguagem natural o que deseja doar, e o sistema encontra os pedidos de ajuda ativos mais compatíveis, valida regras de segurança/triagem e redige uma mensagem pronta para agendamento.
 
 ---
 
@@ -94,7 +94,7 @@ Para validar o comportamento do sistema, foi desenvolvido o script automatizado 
 1. **Clone o repositório e acesse a pasta:**
    ```bash
    git clone <URL_DO_REPOSITORIO>
-   cd solia
+   cd colabia
    ```
 2. **Crie e ative o ambiente virtual:**
    ```bash
